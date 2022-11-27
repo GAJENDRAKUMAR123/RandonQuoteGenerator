@@ -1,0 +1,102 @@
+
+@media (min-width:400px) and (max-width: 600px) {
+	body{
+		background-image: url("manga.png");
+	}
+
+
+	#mainBody{
+		display:flex;
+		justify-content: center;
+		align-items: center;
+		height: 70vh;
+		width: auto;
+	}	
+	#footer{ 
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		background-color: black;
+		color: white;
+		font-family: 'Arial Narrow Bold', sans-serif;
+		text-align: left;
+	  
+	}
+
+	#footer h4{
+		margin-left: 2%;
+	}
+
+	#header{
+		color:white;
+		background-color: black;
+		height: 15%;
+		text-align: center;
+		display: flex;
+		justify-content: center;
+		font-family: Impact, 'Arial Narrow Bold', sans-serif;
+	}
+	
+#textArea{
+	background-color: yellow;
+	justify-content:center;
+    width: 75%;
+    height: 80%;
+	padding: 4%;
+	text-align: center;
+}
+
+#quotetextArea{
+	height: 60%;
+	padding-bottom: 1%;
+	font-size: 14px;
+} 
+
+#quote{
+	margin-left:2%;
+	margin-right:2%;
+	font-family:Arial, Helvetica, sans-serif;
+}
+#authorTextArea{
+	height: 20%;
+	margin-top: -1%;
+	font-size: 13px;
+}
+#controlArea{
+	height: 20%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#left{
+	display: flex;
+	flex-direction: start;
+	height:2rem;
+	width:2rem;
+}
+#right{
+	margin-top: -1%;
+	direction: right;
+	float:right;
+	height:2rem;
+	width:2rem;
+}
+
+button{
+	height: 80%;
+	width: 60%;
+	display: flex;
+	justify-content: center;
+	float: right;
+	font-size:21px;
+	font-style: bold;
+	color: #020e26;
+	background-color: transparent;
+	border: 3px solid #020e26;
+	border-radius: 48px;
+	padding: 12px 32px;
+	transition: 0.4s;
+}
+}
